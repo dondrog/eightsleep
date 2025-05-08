@@ -6,6 +6,6 @@
     },
     "crons": [{
         "path": "/api/temperatureCron",
-        "schedule": "0 60 * * *"
+        "schedule": "*/30 * * * *"
     }]
   }
