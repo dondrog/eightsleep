@@ -3,5 +3,9 @@
       "app/api/**/*": {
         "maxDuration": 60 
       }
-    }
+    },
+    "crons": [{
+        "path": "/api/temperatureCron",
+        "schedule": "0 60 * * *"
+    }]
   }
